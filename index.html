@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Bloks 3</title>
+<style>
+div {
+  width: 200px;
+  height: 200px;
+
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.serye{
+	background-color: grey;
+	overflow: auto;
+	float: left;
+}
+
+</style>
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+var div;
+var vsego;
+var list;
+
+
+function getNumber() {
+	var number = prompt("Please enter grey blocks amount:");
+	while (number == null || number == "" || isNaN(number)==true) {
+    number = prompt("Please enter valid number:");
+	}
+	appear(number);
+ }
+ 
+function appear(x) {
+	if (x==0) return;
+	vsego = vsego + 1;
+	div = document.createElement('div');
+	div.className = "serye";
+	document.body.append(div);
+	return appear(x-1);
+	}
+	
+function del(vsego){
+	if (vsego==0) return;
+	list = document.getElementsByClassName("serye")[0];
+	list.remove();
+	return del(vsego-1);
+}
+
+
+</script>
+
+<div style="background-color:Red; float: left"; onclick="getNumber()">
+</div>
+<div class="clearfix" style="background-color:Blue">
+</div>
+<div style="background-color:Green">
+</div>
+<div style="background-color:Yellow; float: left">
+</div>
+
+</body>
+</html>
