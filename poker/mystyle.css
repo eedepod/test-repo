@@ -1,0 +1,50 @@
+.first_card{
+	float:left;
+/*	margin:.5em 25px .5em 0; */
+	overflow:hidden;
+	position:relative;
+/*	border:1px solid #ccc; */
+	width:196px;
+	height:286px;
+	margin-left:100px;
+	margin-top: 50px;
+	margin-bottom: auto;
+	}
+
+
+	
+.next_card{
+	float:left;
+/*	margin:.5em 25px .5em 0; */
+	overflow:hidden;
+	position:relative;
+/*	border:1px solid #ccc; */
+	width:196px;
+	height:286px;
+	margin-top: 50px;
+	margin-bottom: auto;
+	}
+	
+.next_card img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	}
+
+.first_card img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	}	
+	
+	
+div {
+  width: 400px;
+  height: 430px;
+
+}
+
+.clearfix {
+  overflow: auto;
+}
+

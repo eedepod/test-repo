@@ -1,0 +1,211 @@
+button {
+    padding: 10px 25px 8px;
+    color: #fff;
+    background-color: #0067ab;
+    text-shadow: rgba(0, 0, 0, 0.24) 0 1px 0;
+    font-size: 16px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0 2px 0 0 inset, #fff 0 1px 0 0;
+    border: 1px solid #0164a5;
+    border-radius: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, Sans-Serif;
+    /*background-image: url('../Pic/login.png');*/
+    /*background-color: green;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+a {
+    color: #0067ab;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.leave_form {
+    text-align: left;
+    width: 300px;
+    height: auto;
+    /* margin-right: auto; */
+    /* overflow: auto; */
+    /* position: relative; */
+}
+
+.login_form {
+    /* position: -webkit-sticky; */
+    /* position: sticky; */
+    text-align: right;
+    text-align: top;
+    width: 300px;
+    height: 40px;
+    /* margin-left: auto; */
+    /* margin-top: 0; */
+    /*   overflow: auto; */
+    float: right;
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+    width: 200px;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+input[type='submit'] {
+    padding: 10px 25px 8px;
+    color: #fff;
+    background-color: #0067ab;
+    text-shadow: rgba(0, 0, 0, 0.24) 0 1px 0;
+    font-size: 16px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0 2px 0 0 inset, #fff 0 1px 0 0;
+    border: 1px solid #0164a5;
+    border-radius: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #024978;
+}
+
+h1 {
+    margin-top: 280px;
+}
+
+h3 {
+    /*	color: white; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.create_room {
+    background-color: rgb(161, 192, 161);
+    width: 500px;
+    height: 60px;
+    text-align: center;
+}
+
+.rooms {
+    background-color: green;
+    float: left;
+    width: 500px;
+    height: auto;
+}
+
+.room {
+    width: 500px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 2px;
+    background-color: red;
+}
+
+.roomgamers {
+    float: left;
+    width: 250px;
+    height: 100px;
+    /*	background-color: red; */
+    text-align: center;
+}
+
+.roombuttons {
+    background-color: yellow;
+    overflow: auto;
+    width: 250px;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.who_online {
+    background-color: cyan;
+    overflow: auto;
+    width: 500px;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+.first_card {
+    float: left;
+    /*	margin:.5em 25px .5em 0; */
+    overflow: hidden;
+    position: relative;
+    /*	border:1px solid #ccc; */
+    width: 196px;
+    height: 286px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+.next_card {
+    float: left;
+    /*	margin:.5em 25px .5em 0; */
+    overflow: hidden;
+    position: relative;
+    /*	border:1px solid #ccc; */
+    width: 196px;
+    height: 286px;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+.oponent {
+    float: left;
+    background-color: green;
+    margin-left: 200px;
+    width: 600px;
+}
+
+.next_card img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.first_card img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+/*
+div {
+    width: 400px;
+    height: 430px;
+}
+*/
+
+.clearfix {
+    overflow: auto;
+}
